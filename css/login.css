@@ -1,0 +1,40 @@
+/* .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-login {
+    width: 30%;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 70%;
+}
+
+@media screen and (max-width: 990px) {
+    .form {
+        width: 100%;
+    }
+}
