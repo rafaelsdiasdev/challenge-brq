@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GoDrive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/ofertas-aluguel.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">GoDrive</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                            GoDrive
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/login.html">Login/Signup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="page-container">
+        <div class="text-center bg-body-tertiary">
+            <div class="col-md-6 p-lg-5 mx-auto my-5 carro-destaque">
+                <div>
+                    <input class="carro-destaque-btn btn btn-warning w-100 py-2" type="button" value="Reserve agora!">
+                </div>
+            </div>
+        </div>
+            
+        <div class="mb-5">
+            <h2>Grupo de Carros</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../img/kwid.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GRUPO B - COMPACTO COM AR</h5>
+                  <p class="card-text">Fiat Mobi 1.0, Renault Kwid 1.0 ou similar</p>
+                  <input class="btn btn-success" type="button" value="RESERVE AGORA">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/zoe.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GRUPO BE - COMPACTO ELÉTRICO</h5>
+                  <p class="card-text">Renault Zoe e-tech Elétrico ou similar*</p>
+                  <input class="btn btn-success" type="button" value="RESERVE AGORA">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/cronos.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GRUPO FS - INTERMEDIÁRIO SEDAN</h5>
+                  <p class="card-text">Fiat Cronos 1.3, GM Onix Plus 1.0 Turbo, Fiat Grand Siena 1.4 ou similar*</p>
+                  <input class="btn btn-success" type="button" value="RESERVE AGORA">
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../img/208.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GRUPO FX - INTERMEDIÁRIO AUTOMÁTICO</h5>
+                  <p class="card-text">Peugeot 208 Hatch 1.6, Hyundai HB20 1.0 Turbo, Hyundai HB20S 1.0 ou similar*</p>
+                  <input class="btn btn-success" type="button" value="RESERVE AGORA">
+                </div>
+              </div>
+            </div>
+          </div>
+        <footer>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 GoDrive, Inc. Alguns direitos reservados.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+</html>
