@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    /*border: 1px solid black;*/
+    outline: none;
+     
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8rem 0rem -3rem -2rem;
+}
+
+.text-blue{
+    color: rgb(9, 0, 119);
+    font-weight: bold;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

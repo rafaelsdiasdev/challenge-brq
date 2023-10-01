@@ -1,0 +1,121 @@
+.container-cadastro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
+.cadastro-left {
+    background-color: #424649;
+    background-image: url(/img/bg-cadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    box-shadow: 5px 0px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cadastro-right {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: 100vh;
+}
+
+.txt-logo {
+    width: 66%;
+    margin: 7rem 0rem 0rem 0rem;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.text-left{
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    width: 16rem;
+    justify-content: end;
+    color: #000;
+}
+
+.btn-login{
+    width: 15.9rem;
+    height: 2.7rem; 
+    border-radius: 6px;
+    border: none;
+    background-color: #fff;
+    font-family: 'faustina-bold';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cnt-btn{
+    display: flex;
+    height: 11.5rem;
+    justify-content: end;
+}
+.text-title-left{
+    margin-bottom: 2rem;
+    font-family: 'faustina-bold';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login-inputs {  
+    width: 29rem;
+    margin: 0.5rem;
+    height: 2.7rem;
+    margin-bottom: 0.5rem;
+    background: #FFFFFF;
+    border: 1px solid #758194;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'play-regular';
+
+}
+
+.paragrafo-left{
+    font-family: 'play-regular';
+    font-size: 18px;
+}
+
+.btn-login-right{
+    width: 29rem;
+    height: 2.7rem;
+    background-color: #424649;
+    border: none;
+    border-radius: 6px;
+    margin: 4rem;
+    cursor: pointer;
+    margin: 2rem, 2rem;
+    font-family: 'faustina-bold';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cnt-title-img{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+       justify-content: start;
+    margin-bottom: 2rem;
+}
+.title-cadastro{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'faustina-bold';
+}
+
+.img-seta{
+    width: 15%;
+    margin-bottom: 2rem;
+}
